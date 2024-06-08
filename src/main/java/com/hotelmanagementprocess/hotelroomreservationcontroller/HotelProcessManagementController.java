@@ -47,7 +47,7 @@ public class HotelProcessManagementController {
 
 
     @GetMapping("/reservation-for-guest/{guestName}")
-    public List<BookingDto> getRoomByGuest(@PathVariable("guestName") String guestName) {
+    public List<BookingDto> getBookingDetailsByGuest(@PathVariable("guestName") String guestName) {
 
         List<BookingDto> ReservedRooms = null;
 
