@@ -1,6 +1,6 @@
 # hotel-booking-management
 
-** Hotel Booking Management APIs:**
+**Hotel Booking Management APIs:**
 This is a simple Java-based springboot microservice API for managing hotel reserevations & bookings . It provides endpoints for Creating bookings, Getting details about the  rooms availibility on a given date, and retrieving the reservations or bookings for a specific guest.
 
 **Features:**
@@ -33,6 +33,7 @@ Get Available Rooms:             GET /hotel-available-rooms?date={date}
 get Booking Details for Guestt:  GET /reservation-for-guest/{guestName}
 
 **Example For Requests To Trigger**
+
 createGuestReservation:
 curl -X POST -d "guestName=Abhishek Dubey&roomNumber=2&date=2024-06-08" http://localhost:8080/hotel-bookings
 
